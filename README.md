@@ -20,11 +20,9 @@ The goal is to predict the sentiment (positive, negative, neutral) expressed tow
   - `models/`: model implementations (Logistic Regression, XGBoost, BERT)
   - `error_analysis/`: evaluation tools and diagnostics
 
-- **bert_results/**
-  - `checkpoints/`: saved model checkpoints for BERT fine-tuning in the mixed standard framework
 
-- **bert_results_single/**
-  - `checkpoints/`: saved model checkpoints for BERT fine-tuning in the transfer framework
+- **bert_results_single/** and **bert_results/**
+  - `checkpoints/`: saved model checkpoints for BERT fine-tuning in the mixed and transfer frameworks couldn't be pushed to git.
  
 ## Dataset License
 
